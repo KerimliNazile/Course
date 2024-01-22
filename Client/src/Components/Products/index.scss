@@ -1,0 +1,36 @@
+.CarddAreaa {
+
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextProduct {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 965px) {
+    .CarddAreaa {
+
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        gap: 20px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .TextProduct {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

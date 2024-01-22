@@ -1,0 +1,30 @@
+nav {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+gap: 30px;
+    .ImgLogo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo {}
+
+        .navText {}
+    }
+
+    .MainNav {
+        #navi {
+            
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            li a{
+                color: black;
+            }
+        }
+    }
+}
